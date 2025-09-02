@@ -20,3 +20,6 @@ class Perro extends Animal {
 
 const perro = new Perro("Rocky");
 perro.hablar();
+
+// En este ejemplo la clase Perro hereda el constructor y metodo de Animal
+// Y con extends se redefine el metodo hablar()
