@@ -37,3 +37,24 @@ perro.hablar();
 console.log(`-------------------------------------------`);
 console.log(`Ejemplo de Encapsulamiento: `);
 
+class CuentaBancaria {
+    #saldo;
+
+    constructor(saldoInicial) {
+        this.#saldo = saldoInicial;
+    }
+
+    getSaldo() {
+        return this.#saldo;
+    }
+
+    depositar(cantidad) {
+        if (cantidad > 0) {
+            this.#saldo += cantidad;
+        }
+    }
+}
+
+const cuentaDanielito = new CuentaBancaria(1000);
+cuentaDanielito.depositar(500);
+console.log(`Su saldo es de: $${cuentaDanielito.getSaldo()} pesos`);
