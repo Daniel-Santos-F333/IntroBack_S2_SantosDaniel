@@ -1,4 +1,10 @@
+//#####################################
+//############# Ejemplos ##############
+//#####################################
+
 // Ejemplo HERENCIA.
+console.log(`Ejemplo de Herencia: `);
+
 
 class Animal {
     constructor(nombre) {
@@ -23,3 +29,11 @@ perro.hablar();
 
 // En este ejemplo la clase Perro hereda el constructor y metodo de Animal
 // Y con extends se redefine el metodo hablar()
+//#################################################################################
+//#################################################################################
+
+// Ejemplo Encapsulamiento.
+
+console.log(`-------------------------------------------`);
+console.log(`Ejemplo de Encapsulamiento: `);
+
