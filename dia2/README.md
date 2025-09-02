@@ -30,5 +30,14 @@ La herencia es un mecanismo de la Programación Orientada a Objetos que permite 
 
 Esto facilita la reutilización de código, evita duplicación, y promueve relaciones jerárquicas entre clases. JavaScript nos permite implementar herencia con las palabras clave `class`, `extends` y `super`.
 
-**Ejemplo en consola.** 
+### ¿Qué es Encapsulamiento?
 
+El encapsulamiento es el principio de ocultar los detalles internos de un objeto o clase, exponiendo solo lo necesario a través de interfaces públicas. Así, se protegen los datos de accesos indebidos y se reduce el acoplamiento entre componentes.
+
+En P.O.O., esto se logra mediante:
+
+* Propiedades privadas.
+
+* Métodos privados.
+
+* Métodos públicos para acceder/modificar los datos (getters y setters).
