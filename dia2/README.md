@@ -23,3 +23,12 @@ Personaje
 ## Aplicado en JS
 
 Para aplicarlo emplearemos la palabra clave ```clases```, dentro de ellas podremos definir clases con propiedades y métodos. Estas clases se instancian mediante la palabra clave ```new```.
+
+### ¿Qué es Herencia?
+
+La herencia es un mecanismo de la Programación Orientada a Objetos que permite a una clase (llamada subclase o clase hija) adquirir las propiedades y métodos de otra clase (llamada superclase o clase padre).
+
+Esto facilita la reutilización de código, evita duplicación, y promueve relaciones jerárquicas entre clases. JavaScript nos permite implementar herencia con las palabras clave `class`, `extends` y `super`.
+
+**Ejemplo en consola.** 
+
