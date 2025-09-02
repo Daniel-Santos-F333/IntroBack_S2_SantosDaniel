@@ -18,6 +18,8 @@ Personaje
 - Velocidad (propiedad)            # Número que representa la velocidad actual del personaje
 - Hablar (método)                  # Función que hará que el personaje diga algo
 - Disparar (método)                # Función que hará que el personaje dispare con su arma
-- Curar (método)                   # Función que hará que el personaje use un botiquín ```
+- Curar (método)                   # Función que hará que el personaje use un botiquín
+```
+## Aplicado en JS
 
-
+Para aplicarlo emplearemos la palabra clave ```clases```, dentro de ellas podremos definir clases con propiedades y métodos. Estas clases se instancian mediante la palabra clave ```new```.
