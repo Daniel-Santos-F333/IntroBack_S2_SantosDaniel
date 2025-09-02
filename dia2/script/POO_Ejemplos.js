@@ -58,3 +58,6 @@ class CuentaBancaria {
 const cuentaDanielito = new CuentaBancaria(1000);
 cuentaDanielito.depositar(500);
 console.log(`Su saldo es de: $${cuentaDanielito.getSaldo()} pesos`);
+
+// En este ejemplo usamos "#" para encapsular el saldo y que no se pueda acceder directamente a su valor desde afuera del objeto.
+// Ya que si intentamos "console.log(cuentaDanielito.#saldo);" esto nos daria un error.
